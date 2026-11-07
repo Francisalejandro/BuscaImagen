@@ -1,0 +1,34 @@
+# Dependencias del proyecto BuscaImagen.
+# El procesamiento es 100% local: no se usan APIs de pago ni servidores externos
+# propios (las descargas iniciales vienen de Hugging Face / PyPI / Wikimedia).
+
+# Modelo CLIP y carga de deep learning.
+# PyTorch se instala EN UN PASO SEPARADO (ver README.md): la variante de CPU
+# solo existe en el índice de PyTorch, no en PyPI, por lo que no puede ir dentro
+# de este fichero junto al resto de dependencias:
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+# torch==2.15.0  <-- se instala con el comando anterior
+
+# Transformers (CLIPProcessor / CLIPModel). Probado con 5.22.1:
+#   get_image_features / get_text_features devuelven
+#   BaseModelOutputWithPooling y el embedding está en .pooler_output (512-d).
+transformers==5.22.1
+
+# Manipulación de imágenes
+pillow==13.0.0
+
+# Base de datos vectorial (almacenamiento local en database/) - fase siguiente
+# Probado con 0.41.0: API db.list_tables(), create_table(mode='create'),
+# tabla.search(...).limit(k).select([...]).to_list() (_distance incluida).
+lancedb==0.41.0
+
+# Interfaz gráfica de la aplicación (app.py)
+streamlit==1.67.0
+
+# Utilidades numéricas y de datos
+numpy==2.5.4
+pandas==3.1.1
+
+# Pruebas
+# Probado con 9.2.0 (tests/test_lancedb.py, 9 pruebas)
+pytest==9.2.0

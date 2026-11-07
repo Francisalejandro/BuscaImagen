@@ -1,0 +1,182 @@
+{
+    "modelo": "openai/clip-vit-base-patch32",
+    "dim": 512,
+    "total": 25,
+    "entradas": [
+        {
+            "id": "balanza_1",
+            "nombre": "balanza",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para medir la masa de objetos",
+            "ruta": "data/imagenes/instrumentos/balanza_1.jpg"
+        },
+        {
+            "id": "microscopio_1",
+            "nombre": "microscopio",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para observar objetos muy pequeños",
+            "ruta": "data/imagenes/instrumentos/microscopio_1.jpg"
+        },
+        {
+            "id": "multimetro_1",
+            "nombre": "multimetro",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para medir voltaje, corriente y resistencia",
+            "ruta": "data/imagenes/instrumentos/multimetro_1.jpg"
+        },
+        {
+            "id": "osciloscopio_1",
+            "nombre": "osciloscopio",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para visualizar señales eléctricas",
+            "ruta": "data/imagenes/instrumentos/osciloscopio_1.jpg"
+        },
+        {
+            "id": "pipeta_1",
+            "nombre": "pipeta",
+            "categoria": "instrumentos",
+            "descripcion": "Tubo fino para transferir pequeños volúmenes de líquido",
+            "ruta": "data/imagenes/instrumentos/pipeta_1.jpg"
+        },
+        {
+            "id": "probeta_1",
+            "nombre": "probeta",
+            "categoria": "instrumentos",
+            "descripcion": "Recipiente cilíndrico graduado para medir volumen de líquidos",
+            "ruta": "data/imagenes/instrumentos/probeta_1.jpg"
+        },
+        {
+            "id": "regla_1",
+            "nombre": "regla",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para medir longitudes",
+            "ruta": "data/imagenes/instrumentos/regla_1.jpg"
+        },
+        {
+            "id": "calculadora_1",
+            "nombre": "calculadora",
+            "categoria": "cotidianos",
+            "descripcion": "Dispositivo electrónico para realizar cálculos",
+            "ruta": "data/imagenes/cotidianos/calculadora_1.jpg"
+        },
+        {
+            "id": "reloj_1",
+            "nombre": "reloj",
+            "categoria": "cotidianos",
+            "descripcion": "Instrumento portátil para medir el tiempo",
+            "ruta": "data/imagenes/cotidianos/reloj_1.jpg"
+        },
+        {
+            "id": "termometro_1",
+            "nombre": "termometro",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para medir la temperatura",
+            "ruta": "data/imagenes/instrumentos/termometro_1.jpg"
+        },
+        {
+            "id": "resistencia_1",
+            "nombre": "resistencia",
+            "categoria": "componentes",
+            "descripcion": "Componente electrónico que limita el paso de la corriente",
+            "ruta": "data/imagenes/componentes/resistencia_1.jpg"
+        },
+        {
+            "id": "condensador_1",
+            "nombre": "condensador",
+            "categoria": "componentes",
+            "descripcion": "Componente electrónico que almacena carga eléctrica",
+            "ruta": "data/imagenes/componentes/condensador_1.jpg"
+        },
+        {
+            "id": "diodo_1",
+            "nombre": "diodo",
+            "categoria": "componentes",
+            "descripcion": "Componente electrónico que deja pasar la corriente en un sentido",
+            "ruta": "data/imagenes/componentes/diodo_1.jpg"
+        },
+        {
+            "id": "transistor_1",
+            "nombre": "transistor",
+            "categoria": "componentes",
+            "descripcion": "Componente electrónico que amplifica o conmuta señales",
+            "ruta": "data/imagenes/componentes/transistor_1.jpg"
+        },
+        {
+            "id": "led_1",
+            "nombre": "led",
+            "categoria": "componentes",
+            "descripcion": "Diodo que emite luz al pasar corriente",
+            "ruta": "data/imagenes/componentes/led_1.jpg"
+        },
+        {
+            "id": "circuito_integrado_1",
+            "nombre": "circuito_integrado",
+            "categoria": "componentes",
+            "descripcion": "Conjunto de circuitos electrónicos en un chip",
+            "ruta": "data/imagenes/componentes/circuito_integrado_1.jpg"
+        },
+        {
+            "id": "bateria_1",
+            "nombre": "bateria",
+            "categoria": "componentes",
+            "descripcion": "Dispositivo que almacena energía para convertirla en corriente",
+            "ruta": "data/imagenes/componentes/bateria_1.jpg"
+        },
+        {
+            "id": "protoboard_1",
+            "nombre": "protoboard",
+            "categoria": "componentes",
+            "descripcion": "Placa de pruebas para montar circuitos sin soldadura",
+            "ruta": "data/imagenes/componentes/protoboard_1.jpg"
+        },
+        {
+            "id": "telefono_1",
+            "nombre": "telefono",
+            "categoria": "cotidianos",
+            "descripcion": "Dispositivo portátil para comunicaciones y funciones digitales",
+            "ruta": "data/imagenes/cotidianos/telefono_1.jpg"
+        },
+        {
+            "id": "camara_1",
+            "nombre": "camara",
+            "categoria": "cotidianos",
+            "descripcion": "Dispositivo para capturar fotografías",
+            "ruta": "data/imagenes/cotidianos/camara_1.jpg"
+        },
+        {
+            "id": "auriculares_1",
+            "nombre": "auriculares",
+            "categoria": "cotidianos",
+            "descripcion": "Dispositivo para escuchar audio de forma personal",
+            "ruta": "data/imagenes/cotidianos/auriculares_1.jpg"
+        },
+        {
+            "id": "voltimetro_1",
+            "nombre": "voltimetro",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para medir la diferencia de potencial eléctrico",
+            "ruta": "data/imagenes/instrumentos/voltimetro_1.jpg"
+        },
+        {
+            "id": "teclado_1",
+            "nombre": "teclado",
+            "categoria": "cotidianos",
+            "descripcion": "Periférico de entrada con teclas para escribir",
+            "ruta": "data/imagenes/cotidianos/teclado_1.jpg"
+        },
+        {
+            "id": "amperimetro_1",
+            "nombre": "amperimetro",
+            "categoria": "instrumentos",
+            "descripcion": "Instrumento para medir la intensidad de corriente eléctrica",
+            "ruta": "data/imagenes/instrumentos/amperimetro_1.jpg"
+        },
+        {
+            "id": "raton_1",
+            "nombre": "raton",
+            "categoria": "cotidianos",
+            "descripcion": "Periférico apuntador de entrada",
+            "ruta": "data/imagenes/cotidianos/raton_1.jpg"
+        }
+    ]
+}

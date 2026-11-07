@@ -1,0 +1,32 @@
+# Ignorar entornos virtuales
+.venv/
+venv/
+env/
+
+# Ignorar cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Ignorar archivos temporales y del sistema operativo
+Thumbs.db
+.DS_Store
+*.swp
+.idea/
+
+# Ignorar datos internos de LanceDB (base de datos vectorial).
+# NOTA: database/ NO se sube a Git porque es un artefacto generado:
+# se reconstruye de forma determinista con `python cargar_lancedb.py`
+# a partir de data/ (ver README.md, sección "Ejecución del proyecto").
+database/
+
+# Ignorar modelos descargados localmente (copias locales del modelo CLIP)
+models/
+*.safetensors
+*.bin
+
+# Ignorar configuración local de Streamlit (cachés y secretos locales)
+.streamlit/
