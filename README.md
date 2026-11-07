@@ -544,7 +544,7 @@ modelo CLIP multilingüe para el español (implicaría cambiar de modelo, hoy
 fuera de los requisitos), o una estrategia de normalización por modalidad.
 No se ha aplicado ninguna para no alterar el comportamiento evaluado.
 
-## 22. Cuestiones académicas (solicitadas por el profesor)
+## 22. Cuestiones académicas 
 
 **1. Diferencia entre buscar por nombre de archivo y por contenido de imagen.**
 Buscar por nombre de archivo significa *coincidencia de cadenas* por el
