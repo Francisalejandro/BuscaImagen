@@ -1,7 +1,7 @@
 # BuscaImagen 🔎
 
 **Búsqueda de imágenes mediante descripciones en lenguaje natural.**
-Proyecto universitario que recupera las **3 imágenes más relevantes** para una
+Proyecto que recupera las **3 imágenes más relevantes** para una
 frase escrita en español, combinando similitud **visual** y similitud
 **textual** (búsqueda híbrida). Procesamiento **100 % local**: sin APIs de
 pago, sin servidores externos, sin SQL.
